@@ -1,13 +1,11 @@
 #include<bits/stdc++.h>
+
 using namespace std;
 #define FAST ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0)
 #define ll long long
 #define ss(s) scanf("%s",s)
 #define str(x) strlen(x)
 #define pb push_back
-#define DBG(x) do {cerr << #x <<" = " << (x) << endl; } while (false)
-#define RAYA do {cerr << "===========================" << endl; } while (false)
-const int N=1e6+5;
 
 void intercambiar(int &x,int &y)
 {
@@ -50,8 +48,9 @@ int main()
 	int n=sizeof(a)/sizeof(int);
 	int primero=0;
 	int ultimo=n-1;
-	ordQuicksort(a,primero,ultimo);	
+        ordQuicksort(a,primero,ultimo);	
 	imprimir(a,n);
 	return 0;
 }
 
+	
